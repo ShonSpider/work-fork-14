@@ -48,7 +48,7 @@ public partial class MapGridControl : LayoutContainer
     /// <summary>
     /// UI pixel radius.
     /// </summary>
-    public const int UIDisplayRadius = 320;
+    public int UIDisplayRadius { get; set; } = 320;
     protected const int MinimapMargin = 4;
 
     protected float WorldMinRange;
